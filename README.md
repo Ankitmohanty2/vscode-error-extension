@@ -89,7 +89,7 @@ Got ideas? Found a bug? Want to add Linux/macOS support? PRs are welcome!
 
 ## 📄 License
 
-MIT © [mohan](https://github.com/mohan)
+MIT © [mohan](https://github.com/Ankitmohanty2)
 
 ---
 
