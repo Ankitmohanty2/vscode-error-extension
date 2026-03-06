@@ -1,0 +1,30 @@
+{
+    "name": "fahhhhh-error-sound",
+    "publisher": "mohan",
+    "displayName": "Fahhhhh Error Sound",
+    "description": "Plays a 'fahhhhh' sound when an error occurs in the terminal",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {},
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/node": "16.x",
+        "@types/vscode": "^1.109.0",
+        "typescript": "^5.1.3"
+    }
+}
