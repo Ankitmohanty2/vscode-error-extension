@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="banner.png" alt="Fahhhhh Error Sound Banner" width="100%" />
-</p>
+
 
 # 💥 Fahhhhh Error Sound
 
