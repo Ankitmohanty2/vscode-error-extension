@@ -1,6 +1,6 @@
 
 
-# 💥 Fahhhhh Error Sound
+#  Fahhhhh Error Sound
 
 > **Your terminal messed up? FAHHHHH!**
 
@@ -12,7 +12,7 @@ Tests crashed? **FAHHHHH.**
 
 ---
 
-## 🎬 How It Works
+## How It Works
 
 This extension hooks into VS Code's **Shell Integration API** and listens for terminal commands that exit with a failure code (`exit code ≠ 0`).
 
@@ -27,17 +27,17 @@ you@pc:~$ npm run build
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔊 **Instant audio feedback** on every failed terminal command
-- ⚡ **Zero-latency playback** via Windows MCI API (`winmm.dll`)
-- 🔁 **Plays every single time** — no cooldown, no skipping, no singleton issues
-- 🧩 **Stable API only** — uses `onDidEndTerminalShellExecution` (no proposed APIs)
-- 🪶 **Lightweight** — no dependencies, no bloat
+-  **Instant audio feedback** on every failed terminal command
+-  **Zero-latency playback** via Windows MCI API (`winmm.dll`)
+-  **Plays every single time** — no cooldown, no skipping, no singleton issues
+-  **Stable API only** — uses `onDidEndTerminalShellExecution` (no proposed APIs)
+-  **Lightweight** — no dependencies, no bloat
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### From the Marketplace
 Search for **"Fahhhhh Error Sound"** in the VS Code Extensions panel (`Ctrl+Shift+X`) and click Install.
@@ -49,7 +49,7 @@ Search for **"Fahhhhh Error Sound"** in the VS Code Extensions panel (`Ctrl+Shif
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - **Windows** (uses PowerShell + `winmm.dll` for audio playback)
 - **VS Code 1.80+** with Shell Integration enabled (enabled by default)
@@ -57,7 +57,7 @@ Search for **"Fahhhhh Error Sound"** in the VS Code Extensions panel (`Ctrl+Shif
 
 ---
 
-## 🎵 Custom Sound
+##  Custom Sound
 
 Want a different sound? Simply replace the `fahhh.mp3` file in the extension's `out/` folder with your own `.mp3` file. Just make sure to rename it to `fahhh.mp3`.
 
@@ -73,7 +73,7 @@ Want a different sound? Simply replace the `fahhh.mp3` file in the extension's `
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Got ideas? Found a bug? Want to add Linux/macOS support? PRs are welcome!
 
@@ -85,7 +85,7 @@ Got ideas? Found a bug? Want to add Linux/macOS support? PRs are welcome!
 
 ---
 
-## 📄 License
+##  License
 
 MIT © [mohan](https://github.com/Ankitmohanty2)
 
